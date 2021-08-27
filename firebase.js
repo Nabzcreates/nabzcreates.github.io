@@ -1,12 +1,14 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAlJYbTN3a0oh2HiNVL5jAMsSRd-CQK24w",
-  authDomain: "clone-two-ba33b.firebaseapp.com",
-  projectId: "clone-two-ba33b",
-  storageBucket: "clone-two-ba33b.appspot.com",
-  messagingSenderId: "533894227769",
-  appId: "1:533894227769:web:3d5f73c2df760012816ae8",
-  measurementId: "G-FZ0S18V7LC",
+  apiKey: "AIzaSyAYOtAz6M8xOikjUN9xKb9jeCB5rMkPLzo",
+  authDomain: "clone-two-fb532.firebaseapp.com",
+  projectId: "clone-two-fb532",
+  storageBucket: "clone-two-fb532.appspot.com",
+  messagingSenderId: "542462038608",
+  appId: "1:542462038608:web:caf460e8994b75d386b755",
+  measurementId: "G-G4H5ZTQDK0",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+var db = firebase.firestore();
